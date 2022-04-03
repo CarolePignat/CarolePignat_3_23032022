@@ -372,7 +372,7 @@ footer {
   color: transparent;
 }
 .restaurant .fa-heart:hover {
-  color: #FF79DA;
+  color: #9356DC;
   transition: all 1.2s linear;
 }
 .restaurant__new {
@@ -453,11 +453,10 @@ footer {
   right: 10px;
 }
 .menu__header .fa-heart.fas {
-  transform: translateY(-32px);
   color: transparent;
 }
 .menu__header .fa-heart.fas:hover {
-  color: #FF79DA;
+  color: #9356DC;
   transition: all 1.2s linear;
 }
 
