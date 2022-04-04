@@ -446,7 +446,12 @@ footer {
 .menu__header__title {
   width: 100%;
   font-family: "Shrikhand", sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
+}
+@media screen and (min-width: 768px) {
+  .menu__header__title {
+    font-size: 2rem;
+  }
 }
 .menu__header .fa-heart {
   top: 5px;
