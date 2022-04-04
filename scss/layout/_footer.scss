@@ -7,6 +7,7 @@ footer {
 
 .logo__ohmyfood {
     font-family: $font-logoTitle;
+    font-weight: 200;
     color: $color-logo-footer;
     margin: 0%;
 }   
@@ -28,6 +29,10 @@ footer {
 
     &__icon {
         font-family: $font-text;
+    }
+
+    .fa-hands-helping {
+        font-size: 0.9rem;
     }
 }
 

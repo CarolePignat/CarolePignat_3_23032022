@@ -135,6 +135,7 @@ footer {
 
 .logo__ohmyfood {
   font-family: "Shrikhand", sans-serif;
+  font-weight: 200;
   color: #fff;
   margin: 0%;
 }
@@ -155,6 +156,9 @@ footer {
 }
 .menu__nav__icon {
   font-family: "Roboto", sans-serif;
+}
+.menu__nav .fa-hands-helping {
+  font-size: 0.9rem;
 }
 
 .menu__nav a i {
