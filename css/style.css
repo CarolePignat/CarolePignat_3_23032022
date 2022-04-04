@@ -235,7 +235,7 @@ footer {
   border: none;
   border-radius: 20px;
   padding: 0;
-  background-color: white;
+  background-color: #f6f6f6;
   box-shadow: 2px 2px 2px 2px #eaeaea;
   margin: 20px 0 20px 15px;
   cursor: pointer;
@@ -247,7 +247,7 @@ footer {
   }
 }
 .functions__option:hover {
-  background-color: #FCF3E7;
+  background-color: #f5edff;
 }
 .functions__option:hover .functions__option__icon {
   color: #9356DC;
