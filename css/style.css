@@ -184,12 +184,15 @@ footer {
 .top__page .location__search {
   height: 30px;
   border: none;
-  padding-left: 5px;
-  margin-left: 10px;
+  width: 150px;
   color: #000;
   background-color: #e2e2e2;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: bold;
+}
+.top__page .location .fa-map-marker-alt {
+  font-size: 1.1rem;
+  margin-right: 5px;
 }
 .top__page .presentation {
   display: flex;
@@ -463,6 +466,7 @@ footer {
 }
 .menu__header .fa-heart.fas {
   color: transparent;
+  transform: translateY(-32px);
 }
 .menu__header .fa-heart.fas:hover {
   color: #9356DC;
