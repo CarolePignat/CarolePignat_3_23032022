@@ -81,7 +81,7 @@
 
                 &:hover {
                     color: $primary-color;
-                    transition: all 1.2s linear;
+                    animation: fillIn 1s ease;
                 }
             }
         }
