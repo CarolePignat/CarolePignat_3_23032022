@@ -77,10 +77,11 @@
 
             &.fas {
                 color: transparent; 
+                transform: translateY(-32px);
 
                 &:hover {
                     color: $primary-color;
-                    transition: all 1s ease;
+                    transition: all 1s linear;
                 }
             }
         }
