@@ -37,15 +37,6 @@ a {
     transform: rotate(360deg);
   }
 }
-/* HEART ANIMATION */
-@keyframes fillIn {
-  0% {
-    transform: translateY(0%);
-  }
-  100% {
-    transform: translateY(100%);
-  }
-}
 /* CARDS ANIMATION DELAY */
 @keyframes cards {
   0% {
@@ -389,7 +380,7 @@ footer {
 }
 .restaurant .fa-heart:hover {
   color: #9356DC;
-  animation: fillIn 1s ease;
+  transition: all 1s ease;
 }
 .restaurant__new {
   position: absolute;
@@ -479,7 +470,7 @@ footer {
 }
 .menu__header .fa-heart.fas:hover {
   color: #9356DC;
-  animation: fillIn 1s ease;
+  transition: all 1s ease;
 }
 
 .menu__page {

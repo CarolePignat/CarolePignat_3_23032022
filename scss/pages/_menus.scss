@@ -81,7 +81,7 @@
 
                 &:hover {
                     color: $primary-color;
-                    animation: fillIn 1s ease;
+                    transition: all 1s ease;
                 }
             }
         }
