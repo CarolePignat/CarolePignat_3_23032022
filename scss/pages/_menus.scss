@@ -76,8 +76,7 @@
             right: 10px; 
 
             &.fas {
-                color: transparent;
-                transform: translateY(-32px);
+                color: transparent; 
 
                 &:hover {
                     color: $primary-color;
